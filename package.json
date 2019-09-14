@@ -1,0 +1,23 @@
+{
+  "name": "instagram-clone",
+  "version": "1.0.0",
+  "description": "Static Instagram clone",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AriHerna/Instagram-clone.git"
+  },
+  "author": "AriHernandez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AriHerna/Instagram-clone/issues"
+  },
+  "homepage": "https://github.com/AriHerna/Instagram-clone#readme",
+  "devDependencies": {
+    "lite-server": "^2.5.4"
+  }
+}
