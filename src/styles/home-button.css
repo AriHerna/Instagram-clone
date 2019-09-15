@@ -1,0 +1,19 @@
+.home-button {
+    display: flex;
+    align-items: center;
+}
+
+.home-button__icon-isotype--size {
+    height: 20px;
+    width: 20px;
+}
+
+.home-button__separator--size {
+    height: 30px;
+    width: 20px;
+}
+
+.home-button__icon-logotype--size {
+    height: 40px;
+    width: 100px;
+}
