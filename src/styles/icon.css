@@ -1,0 +1,14 @@
+.icon svg{
+    height: 20px;
+    width: 20px;
+    color: black;
+}
+
+.icon--size-small svg{
+    height: 10px;
+    width: 10px;
+} 
+
+.icon--color-gray svg {
+    color: #C7C7C7;
+}

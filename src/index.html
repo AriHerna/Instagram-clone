@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,70 @@
     <link rel="stylesheet" href="./styles/index.css">
     <title>Instagram</title>
 </head>
+
 <body>
-    <h1>Hello World!</h1>
+    <!-- Header -->
+    <header class="header">
+        <div class="header__content">
+            <!-- Home button -->
+            <section>
+                <a href="./">
+                    <div class="home-button">
+                        <img src="./assets/home-icon.png" alt="home icon" class="home-button__icon-isotype--size">
+                        <img src="./assets/vertical-line.jpg" alt="separator" class="home-button__separator--size">
+                        <img src="./assets/instagram.png" alt="instagram" class="home-button__icon-logotype--size">
+                    </div>
+                </a>
+            </section>
+
+            <!-- Search bar-->
+            <section>
+                <form class="search-bar">
+                    <span class="icon icon--size-small icon--color-gray search-bar__icon-left">
+                        <i data-feather="search"></i>
+                    </span>
+
+                    <input type="text" placeholder="Buscar" class="search-bar__input">
+
+                    <span class="icon icon--size-small icon--color-gray search-bar__icon-right">
+                        <i data-feather="x-circle"></i>
+                    </span>
+                </form>
+            </section>
+
+            <!-- Nav bar -->
+            <nav>
+                <ul class="nav-bar">
+                    <li class="nav-bar__list-item">
+                        <a href="./">
+                            <span class="icon">
+                                <i data-feather="compass"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-bar__list-item">
+                        <a href="./">
+                            <span class="icon">
+                                <i data-feather="heart"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="nav-bar__list-item">
+                        <a href="./">
+                            <span class="icon">
+                                <i data-feather="user"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <script src="https://unpkg.com/feather-icons"></script>
+    <script>
+        feather.replace()
+    </script>
 </body>
+
 </html>
